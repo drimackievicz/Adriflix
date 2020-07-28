@@ -5,9 +5,8 @@ function App() {
   return (
     <div >
       <Menu/>
-    <h1>Hello Word!</h1>
-    Escreve alguma coisa aqui no meio!
-update automágico!
+    <h1>Em construção!</h1>
+   
 
     </div>
   );
