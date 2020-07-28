@@ -1,17 +1,18 @@
 import React from 'react';
 import Logo from '../../assets/img/adriflix.png';
 import './Menu.css';
+import ButtonLink from '../components/ButtonLink';
+import Button from '../Button';
 
-function Menu(){
+function Menu() {
     return (
-        <nav className='Menu'>
-            <a href='/'>
-           <img  src={Logo} alt='AdriFlix' className='Logo'/>
-            </a>
-            <button as="a" href='/' className='ButtonLink' >
+        <nav className="Menu">
+            <a href="/">
+                <img className="Logo" src={Logo} alt="AluraFlix"></img>
+            </a>        
+            <Button as="a" className="ButtonLink" href="/">
                 Novo Vídeo
-            </button>
-                    
+            </Button>
         </nav>
     );
 }

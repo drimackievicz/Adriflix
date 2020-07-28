@@ -1,8 +1,7 @@
-import styled from 'styled-components';
-import ButtonLink from '../ButtonLink';
+import styled from "styled-components";
 
 const Button = styled.button`
-   color: var(--white);
+    color: var(--white);
     border: 1px solid var(--white);
     box-sizing: border-box;
     cursor: pointer;
@@ -15,10 +14,10 @@ const Button = styled.button`
     text-decoration: none;
     display: inline-block;
     transition: opacity .3s;
-    
     &:hover,
-    &:focus{
+    &:focus {
         opacity: .5;
-    }`
+    }  
+`;
 
-    export default button;
+export default Button;
