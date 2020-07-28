@@ -8,7 +8,7 @@ function Menu(){
             <a href='/'>
            <img  src={Logo} alt='AdriFlix' className='Logo'/>
             </a>
-            <button href='/' className='ButtonLink' >
+            <button as="a" href='/' className='ButtonLink' >
                 Novo Vídeo
             </button>
                     
